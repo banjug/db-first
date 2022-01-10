@@ -1,0 +1,15 @@
+nome tabella	auto usate concessionario
+default		notnull
+
+id			unique primary key auto_increment	1
+marca			varchar(20)				fiat
+modello			varchar(20)				punto
+targa			varchar(10) unique			cj315ts
+anno_modello		year					2003
+motore			varchar(20)				1.3 mjt 16v
+immatricolazione	year					2003
+km			int					262000
+prezzo			int decimal				1000
+proprietari		tinyint					3
+difetti funzionamento	varchar null				tergicristalli da sistemare
+difetti estetici	varchar null				graffi vernice porta lato passeggero
